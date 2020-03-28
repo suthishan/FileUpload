@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/foot1"
+      android:onClick="callonSetting"
+	android:background="@drawable/background_fill"
+	android:textColor="#fff"
+	android:textStyle="bold"
+    style="@style/FooterBar" >
+	<TextView android:text="Project Settings"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="match_parent"
+	    	android:textColor="#ffffff"
+	    	android:gravity="center"
+	    	android:textStyle="bold"
+		android:textSize="20dp"
+	    	android:paddingTop="10dip"/>
+</LinearLayout>
